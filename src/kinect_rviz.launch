@@ -1,0 +1,9 @@
+<launch>
+<node pkg="rviz" type="rviz" name="rviz" args="-d /home/gmq/catkin_ws/src/kinect_rviz.rviz" required="true"/>
+<include file="$(find freenect_launch)/launch/freenect.launch"/>
+
+</launch>
+
+
+
+
